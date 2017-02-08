@@ -1,0 +1,99 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+  float: none;
+}
+
+.jumbotron{
+  background-image:url("https://images.unsplash.com/photo-1456613820599-bfe244172af5?dpr=2&auto=format&fit=crop&w=1199&h=796&q=80&cs=tinysrgb&crop=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 570px;
+}
+
+
+.wrapper{
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+
+.navbar{
+  margin-bottom: 0px;
+  background-color: #f5f5f5;
+  border: 0px;
+  height: 40px;
+  font-size: 17px;
+}
+
+.h2{
+  color: white;
+  text-align: center;
+  font-family: IntervalNextSemiBold sans-serif;
+  height: 100px;
+  margin-top: 220px;
+}
+
+p{
+  font-size: 15px;
+}
+
+.Fonctionnement h2{
+  color: #616161;
+  margin-top: 50px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.Evenement{
+  color: #616161;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-top: 10px;
+}
+
+.article1{
+  margin-left: 200px;
+  text-align: justify;
+}
+
+
+.Client{
+  text-align: center;
+  color: #616161;
+}
+
+.main-footer{
+  border: 100px solid #9e9e9e;
+  background-color: #9e9e9e;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.info1{
+  margin-left: 80px;
+}
+
+.info2{
+  margin-left: 250px;
+}
+.bouton{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.section{
+  background-color: white;
+}
+
+.bouton-all{
+    text-align: center;
+    margin-bottom: 360px;
+    background-color: white;
+    padding-bottom: 60px;
+}
