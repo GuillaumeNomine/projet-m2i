@@ -4,19 +4,17 @@
     <meta charset="utf-8">
       <title>Sport-events</title>
       <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/theme.css" />
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+       <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+       <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+       <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+       <link rel="stylesheet" type="text/css" href="assets/css/theme.css" />
+       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
-  
       <%= render "navbar" %>
       <%= yield %>
-    
+      <%= render "footer"%>
   </body>
 </html>
   
