@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 #home_page
   root 'pages#home'
 
-  get 'pages/contact'
+  get 'pages/inscription'
+  get 'pages/connexion'
 
 end
