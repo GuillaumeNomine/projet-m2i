@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  //= require_tree .
+ //=require bootstrap-modal
  //= require_self
  */
  // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
