@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 #home_page
   root 'pages#home'
 
+  get 'pages/contact'
+
 end
