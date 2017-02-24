@@ -7,17 +7,16 @@ html, body{
 
 .jumbotron{
   background-image:url("https://images.unsplash.com/photo-1456613820599-bfe244172af5?dpr=2&auto=format&fit=crop&w=1199&h=796&q=80&cs=tinysrgb&crop=");
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 580px;
+	 
 }
-
 
 .wrapper{
   min-height: 100%;
   position: relative;
 }
-
 
 .navbar{
   background-color: #f5f5f5;
@@ -31,6 +30,8 @@ html, body{
   color: white;
   text-align: center;
   font-family: IntervalNextSemiBold sans-serif;
+	font-size: 2,5 rem; 
+	text-shadow: 1px 1px #363636; 
   height: 100px;
   margin-top: 220px;
 }
@@ -39,17 +40,18 @@ p{
   font-size: 15px;
 }
 
-.fonction{
-  background-color:#f5f5f5;  
+.main-content{
+  background-color:#f5f5f5;
+	margin-top: -30px;   
 }
 
 .Fonctionnement h2{
   color: #616161;
   margin-top: 50px;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 45px;
-
+  margin-top: 30px;
+  margin-bottom: 30px;
+	padding-top: 20px; 
 }
 
 .Evenement{
@@ -278,14 +280,14 @@ color: #fff;
 .btn-select {
     position: relative;
     padding: 0;
-    min-width: 236px;
+    min-width: 230px;
     width: 100%;
     border-radius: 0;
     margin-bottom: 20px;
 }
 
 .btn-select .btn-select-value {
-    padding: 6px 12px;
+    padding: 3px 10px;
     display: block;
     position: absolute;
     left: 0;
@@ -300,8 +302,8 @@ color: #fff;
 
 .btn-select .btn-select-arrow {
     float: right;
-    line-height: 20px;
-    padding: 6px 10px;
+    line-height: 10px;
+    padding: 6px 5px;
     top: 0;
 }
 
@@ -333,4 +335,15 @@ color: #fff;
 .btn-select ul li.selected {
     color: white;
 }
-
+//fin de css toolbar jumbotron
+//css bouton jumbotron
+.btn-primary {
+color: #fff;
+background-color: #428bca;
+border-color: #357ebd;
+padding: 9px 12px;
+padding-top: 7px;
+width: 200px; 
+min-width: 230px; 
+}
+//fin css jumbotron
